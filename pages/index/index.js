@@ -17,7 +17,7 @@ Page( {
 	data : {
 		currentData : home,
 		cart : {
-			num : 0
+			num : 1
 		},
 		currentView : '',
 		tabs : [{
@@ -52,7 +52,18 @@ Page( {
 			} );
 		} );
 	},
-
+  /**
+   * 导航到对应的油画分类
+   */
+  goToPaintingList(e){
+    // 请求数据，渲染对应页面
+    let currentView = 'sort';
+    this.setData({
+      currentView
+    });
+    _fn.selectView.call(this,currentView);
+    sort.selectCategory.call(this,e.currentTarget.dataset.id);
+  },
 	changeTab : function( e ) {
 		var currentTarget = e.currentTarget,
 			view = currentTarget.dataset.view;

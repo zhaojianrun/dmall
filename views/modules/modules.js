@@ -8,7 +8,6 @@ handle = {
 		modulesAddCart : function( e ) {
 			var dataset = e.currentTarget.dataset,
 				self = this;
-
 			serviceCart.add( dataset.skuId, dataset.storeId, 1, function( data ) {
 				// 模拟添加
 				self.setData( {

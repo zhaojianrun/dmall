@@ -1,51 +1,51 @@
 var data;
 
 data = {
-	errCode : '0000',
-	errMsg : '',
-	data : {
-		pageNum : 1,
-		pageSize : 20,
-		allPage : 20,
-		total : 400,
-		list : [{
-			img : 'http://img.dmall.com/20160930/3f47a2eb-efc2-474f-be7d-af7d4d5955f6_360x360H',
-			title : '富丽加钙牛奶薏米饼干 300g',
-			price : '8.80',
-			skuId : 1,
-			storeId : 11
-		},{
-			img : 'http://img.dmall.com/20160930/13dd6624-9dd8-4b98-bfaf-cbde21e8e9ae_360x360H',
-			title : '[次日达] 特鲜炼奶饼干 芝士味 600g',
-			price : '12.50',
-			skuId : 2,
-			storeId : 12
-		},{
-			img : 'http://img.dmall.com/20161011/38b9e46a-6b11-41f4-98c4-43f85e956b05_360x360H',
-			title : '时怡蛋圆小饼干 90g 韩国',
-			price : '5.90',
-			skuId : 3,
-			storeId : 13
-		},{
-			img : 'http://img.dmall.com/20161205/a6659c95-b8de-42ef-bf6c-24f9cfe2be54_360x360H',
-			title : '丹麦皇冠牛油曲奇饼干 90g',
-			price : '9.76',
-			skuId : 4,
-			storeId : 14
-		},{
-			img : 'http://img.dmall.com/20161213/53aaae54-51de-49c0-8212-e1b4268f112d_360x360H',
-			title : '卡夫乐之薄片饼干 原味 400g',
-			price : '13.50',
-			skuId : 5,
-			storeId : 15
-		},{
-			img : 'http://img.dmall.com/20161112/4f9c479d-371b-4c12-827d-7e0375537f17_360x360H',
-			title : '好丽友蘑古力饼干 巧克力味 48g',
-			price : '4.40',
-			skuId : 6,
-			storeId : 16
-		}]
-	}
+  errCode: '0000',
+  errMsg: '',
+  data: {
+    pageNum: 1,
+    pageSize: 20,
+    allPage: 20,
+    total: 400,
+    list: [{
+      img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E6%B6%9B%E5%A3%B0%20%20%E6%9E%97%E3%A6%B2thumbnail.jpg',
+      title: '江山万里',
+      price: '8800.00',
+      skuId: 1,
+      storeId: 11
+    }, {
+      img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E9%87%8D%E5%B1%B1%E5%A4%8D%E5%B2%AD%20%20%E5%B0%B9%E5%A4%A7%E5%93%B2%20%20thumbnail.jpg',
+      title: '日出江花',
+      price: '1250.00',
+      skuId: 2,
+      storeId: 12
+    }, {
+      img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E9%87%91%E5%88%9A%E5%B1%B1%20%20%E4%BF%9E%E9%95%BF%20%20%20thumbnail.jpg',
+      title: '万里河山',
+      price: '5990.90',
+      skuId: 3,
+      storeId: 13
+    }, {
+        img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E9%97%B2%E4%BA%91%E9%87%8E%E9%B9%A4%20%20%E9%87%91%E6%AD%A3%E6%B3%B0thumnail.jpg',
+        title: '闲云野鹤  金正泰',
+      price: '9760.00',
+      skuId: 4,
+      storeId: 14
+    }, {
+        img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E5%8D%88%E5%90%8E%E7%9A%84%E9%98%B3%E5%85%89%20%20%E9%87%91%E6%AD%A3%E8%B5%ABthumbnail.jpg',
+        title: '午后的阳光  金正赫',
+      price: '1350.00',
+      skuId: 5,
+      storeId: 15
+    }, {
+        img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E9%9B%AA%E5%B1%B1%E7%80%91%E5%B8%83%20%20%E5%B0%B9%E5%A4%A7%E5%93%B2thumbnail.jpg',
+        title: '雪山瀑布  尹大哲',
+      price: '4400.00',
+      skuId: 6,
+      storeId: 16
+    }]
+  }
 }
 
 module.exports = data;
