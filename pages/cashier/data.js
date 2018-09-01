@@ -4,9 +4,9 @@ data = {
 	orderInfo : [{
 		text : 	'订单编号：18312466018'
 	},{
-		text : '订单金额：18.90元'
+      text: '订单金额：15700.00元'
 	}],
-	price : '18.90',
+	price : '15700.00',
 	payment : [{
 		iconClass : 'weixinpay',
 		name : '微信支付',
