@@ -194,3 +194,36 @@
   color: #000;
   margin-top: 19rpx;
 }
+
+/*热销油画*/
+
+.title-container{
+  display: flex;
+  width: 750rpx;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.hot-oil-container {
+  margin-top: 20rpx;
+  width: 184rpx;
+  height: 54rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: #d2a736 2rpx solid;
+  border-right: #d2a736 2rpx solid;
+  color: #3f3d3e;
+}
+
+.hot-oil-container > text:first-child {
+  font-size: 32rpx;
+  text-align: center;
+}
+
+.hot-oil-container > text:last-child {
+  font-size: 14rpx;
+  text-align: center;
+}

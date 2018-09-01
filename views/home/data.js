@@ -24,44 +24,51 @@ var data = {
         data: [{
             id: 1,
             title: '极品推荐', //标题
-            avatar: 'http://pckkf7npd.bkt.clouddn.com/%E6%9E%81%E5%93%81%E6%8E%A8%E8%8D%90.png' //图标
+          avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E6%9E%81%E5%93%81%E6%8E%A8%E8%8D%90.png' //图标
           },
           {
             id: 2,
             title: '山水风景',
-            avatar: 'http://pckkf7npd.bkt.clouddn.com/%E5%B1%B1%E6%B0%B4%E9%A3%8E%E6%99%AF.png'
+            avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E5%B1%B1%E6%B0%B4%E9%A3%8E%E6%99%AF.png'
           },
           {
             id: 3,
             title: '花鸟家禽',
-            avatar: 'http://pckkf7npd.bkt.clouddn.com/%E8%8A%B1%E9%B8%9F%E5%AE%B6%E7%A6%BD.png'
+            avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E8%8A%B1%E9%B8%9F%E5%AE%B6%E7%A6%BD.png'
           },
           {
             id: 4,
             title: '飞禽猛兽',
-            avatar: 'http://pckkf7npd.bkt.clouddn.com/%E9%A3%9E%E7%A6%BD%E7%8C%9B%E5%85%BD.png'
+            avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E9%A3%9E%E7%A6%BD%E7%8C%9B%E5%85%BD.png'
           },
           {
             id: 5,
             title: '民俗民风',
-            avatar: 'http://pckkf7npd.bkt.clouddn.com/%E6%B0%91%E4%BF%97%E6%B0%91%E9%A3%8E.png'
+            avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E6%B0%91%E4%BF%97%E6%B0%91%E9%A3%8E.png'
           },
           {
             id: 6,
             title: '人物肖像',
-            avatar: 'http://pckkf7npd.bkt.clouddn.com/%E4%BA%BA%E7%89%A9%E8%82%96%E5%83%8F.png'
+            avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E4%BA%BA%E7%89%A9%E8%82%96%E5%83%8F.png'
           },
           {
             id: 7,
             title: '水墨画',
-            avatar: 'http://pckkf7npd.bkt.clouddn.com/%E6%B0%B4%E5%A2%A8%E7%94%BB.png'
+            avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E6%B0%B4%E5%A2%A8%E7%94%BB.png'
           },
           {
             id: 8,
             title: '静物',
-            avatar: 'http://pckkf7npd.bkt.clouddn.com/%E9%9D%99%E7%89%A9.png'
+            avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E9%9D%99%E7%89%A9.png'
           }
         ]
+      },
+      {
+        type: 'title',
+        data: {
+          title: '热销油画',
+          subTitle: 'HOT OIL PAINTING'
+        }
       },
       {
         type: 'module-1',

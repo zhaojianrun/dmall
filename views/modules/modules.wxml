@@ -41,8 +41,13 @@
 
 
 <!--标题模块-->
-<template name='title'>
-
+<template name='title' class='title-container'>
+<view class='title-container'>
+  <view class='hot-oil-container'>
+    <text>{{data.title}}</text>
+    <text>{{data.subTitle}}</text>
+  </view>
+  </view>
 </template>
 
 <!-- 商品列表 -->
