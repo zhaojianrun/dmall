@@ -7,15 +7,15 @@ var data = {
         type: 'slider',
         data: [{
           img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E6%B6%9B%E5%A3%B0%20%20%E6%9E%97%E3%A6%B2thumbnail.jpg',
-          link: '../active/active',
+          link: '../details/details?sku=123',
           selected: true
         }, {
           img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E9%87%8D%E5%B1%B1%E5%A4%8D%E5%B2%AD%20%20%E5%B0%B9%E5%A4%A7%E5%93%B2%20%20thumbnail.jpg',
-          link: '../active/active',
+          link: '../details/details?sku=123',
           selected: false
         }, {
           img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E9%87%91%E5%88%9A%E5%B1%B1%20%20%E4%BF%9E%E9%95%BF%20%20%20thumbnail.jpg',
-          link: '../active/active',
+          link: '../details/details?sku=123',
           selected: false
         }]
       },
