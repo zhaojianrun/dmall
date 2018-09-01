@@ -27,8 +27,8 @@
 	</view>
 
 	<view class="more info-module">
-		<view class="title">商品介绍</view>
-		<image wx:for="{{images}}" style="width:750rpx;height:{{750/item.width*item.height}}rpx" src="{{item.img}}"></image>
+		<view class="title">作品介绍</view>
+		<view class='content'>{{description}}</view>
 	</view>
 
 	<view class="toolbar">
