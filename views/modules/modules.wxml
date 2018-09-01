@@ -51,7 +51,7 @@
 </template>
 
 <!-- 商品列表 -->
-<template name="module-1">
+<template name="commodity-list">
   <view class="module-1 flex-col">
     <view class="item-wrapper col" wx:for="{{data}}">
       <view class="item">

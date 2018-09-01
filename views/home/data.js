@@ -24,7 +24,7 @@ var data = {
         data: [{
             id: 1,
             title: '极品推荐', //标题
-          avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E6%9E%81%E5%93%81%E6%8E%A8%E8%8D%90.png' //图标
+            avatar: 'http://pckkf7npd.bkt.clouddn.com/category/%E6%9E%81%E5%93%81%E6%8E%A8%E8%8D%90.png' //图标
           },
           {
             id: 2,
@@ -71,45 +71,45 @@ var data = {
         }
       },
       {
-        type: 'module-1',
+        type: 'commodity-list',
         data: [{
-          img: 'http://img.dmall.com/20161206/0ec7c6eb-b60a-42d4-acdb-d47ad7844a13_360x360H',
-          title: 'Mixxtail魅夜 专业鸡尾酒 蓝色幻想鸡尾酒（露酒）310ml',
-          price: '8.00',
+          img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E9%97%B2%E4%BA%91%E9%87%8E%E9%B9%A4%20%20%E9%87%91%E6%AD%A3%E6%B3%B0thumnail.jpg',
+          title: '闲云野鹤  金正泰',
+          price: '8000.00',
           skuId: 123,
           storeId: 456,
-          originPrice: '9.00',
+          originPrice: '9000.00',
           link: '../details/details?sku=123'
         }, {
-          img: 'http://img.dmall.com/20161112/06aacf18-237a-4b70-a238-e64c235007e7_360x360H',
-          title: '曼可顿面包 香蕉牛奶味 68g',
-          price: '1.65',
-          originPrice: '2.25',
+          img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E5%8D%88%E5%90%8E%E7%9A%84%E9%98%B3%E5%85%89%20%20%E9%87%91%E6%AD%A3%E8%B5%ABthumbnail.jpg',
+          title: '午后的阳光  金正赫午后的阳光  金正赫午后的阳光  金正赫',
+          price: '1650.00',
+          originPrice: '2250.00',
           sku: '',
           link: '../details/details?sku=456'
         }, {
-          img: 'http://img.dmall.com/20161112/fe0bc645-e1e5-48ef-a792-44a81a2ef66e_360x360H',
-          title: '康师傅蜂蜜绿茶 500ml',
-          price: '2.50',
-          originPrice: '3.00',
+          img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E9%9B%AA%E5%B1%B1%E7%80%91%E5%B8%83%20%20%E5%B0%B9%E5%A4%A7%E5%93%B2thumbnail.jpg',
+          title: '雪山瀑布  尹大哲',
+          price: '2500.00',
+          originPrice: '3000.00',
           link: '../details/details?sku=789'
         }, {
-          img: 'http://img.dmall.com/20161112/283de793-f07b-474c-b766-ba1bc2bfa34f_360x360H',
-          title: '金锣玉米热狗肠 40g*10',
-          price: '9.90',
-          originPrice: '12.60',
+          img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E8%8D%A3%E5%BD%92%E6%95%85%E9%87%8C%20%E4%BD%9A%E5%90%8Dthumbnail.jpg',
+          title: '荣归故里 佚名',
+          price: '9900.00',
+          originPrice: '12600.00',
           link: '../details/details?sku=789'
         }, {
-          img: 'http://img.dmall.com/20161215/de13f732-009a-4bb5-9b01-27613592d0dd_360x360H',
-          title: '旺仔优酪乳 132g*16/箱',
-          price: '19.90',
-          originPrice: '60.00',
+          img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E8%AF%BB%E6%8A%A5%20%20%20%E4%B8%A5%E5%AD%9D%E6%B9%9Ethumbnail.jpg',
+          title: '读报   严孝湞',
+          price: '1990.00',
+          originPrice: '6000.00',
           link: '../details/details?sku=789'
         }, {
-          img: 'http://img.dmall.com/20161213/b467ed5e-996f-4840-8c3a-600c6dfda9a9_360x360H',
-          title: '绿伞去污超人洗衣液 3kg',
-          price: '38.90',
-          originPrice: '19.45',
+          img: 'http://pckkf7npd.bkt.clouddn.com/thumbnail/%E5%A9%9A%E7%BA%A6%20%20%E9%87%91%E4%BA%91%20thumbnail.jpg',
+          title: '婚约  金云',
+          price: '3890.00',
+          originPrice: '9450.00',
           link: '../details/details?sku=789'
         }]
       }

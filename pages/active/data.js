@@ -12,7 +12,7 @@ data = {
 				width : '375'
 			}]
 		},{
-			type : 'module-1',
+        type: 'commodity-list',
 			data : [{
 				img : 'http://img.dmall.com/20161206/0ec7c6eb-b60a-42d4-acdb-d47ad7844a13_360x360H',
 				title : 'Mixxtail魅夜 专业鸡尾酒 蓝色幻想鸡尾酒（露酒）310ml',
