@@ -1,5 +1,5 @@
 var ajax = require( '../../common/ajax/ajax.js' ),
-	simularNumber = 12,
+	simularNumber = 4,
 	handle;
 
 handle = {
