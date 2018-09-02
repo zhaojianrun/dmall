@@ -1,0 +1,29 @@
+<!--pages/service/service.wxml-->
+<view class='contact-us'>
+  <image class='banner' src='http://pckkf7npd.bkt.clouddn.com/banner/service-top.jpg'></image>
+  <view class='title'>
+    <image src='http://pckkf7npd.bkt.clouddn.com/icon/contact-us.png'></image>
+    <text>联系我们 / CONTACT US</text>
+  </view>
+  <text class='contact'>联系人： 赵女士</text>
+  <view class='horizontal-bar'></view>
+  <view class='telephone-one'>
+    <text>电话1： 15201519959</text>
+    <image src='http://pckkf7npd.bkt.clouddn.com/icon/telephone2.png' catchtap='contactSale' data-phone='15201519959'></image>
+  </view>
+  <view class='horizontal-bar'></view>
+  <view class='telephone-one telephone-two'>
+    <text>电话2： 18201516206</text>
+    <image src='http://pckkf7npd.bkt.clouddn.com/icon/telephone2.png' catchtap='contactSale' data-phone='18201516206'></image>
+  </view>
+</view>
+
+<view class='about-us'>
+  <view class='title'>
+    <image src='http://pckkf7npd.bkt.clouddn.com/icon/about-us2.png'></image>
+    <text>关于我们 / ABOUT US</text>
+  </view>
+  <text class='company-name'>日照云强博纳文化油画出售</text>
+  <text class='company-introduction'>朝鲜油画，不施粉黛却倾城。被称为是世界艺术品市场上最后一块神秘的待开发的处女地和宝藏，写实的画风，独特的情感演绎，浓郁的民族风情，田园风景创作展现了朝鲜人民固有的和平愿望和宁静心态，历史主题画展现了一种宏大的英雄主义，人物题材创作展现了朝鲜人民朴实的生活和积极乐观的态度。应广大艺术收藏爱好者的要求，日照云强博纳文化集团将对朝鲜油画进入销售阶段，均属于成本价出售。
+</text>
+</view>

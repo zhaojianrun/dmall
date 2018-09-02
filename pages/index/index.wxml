@@ -2,7 +2,7 @@
 <import src="../../views/sort/sort.wxml"/>
 <import src="../../views/cart/cart.wxml"/>
 <import src="../../views/mine/mine.wxml"/>
-
+<import src="../../views/about/about.wxml"/>
 
 <view class="base-style content">
 	<template is="{{currentView}}" data="{{ ...currentData }}"></template>

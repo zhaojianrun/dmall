@@ -2,6 +2,7 @@
 @import "../../views/sort/sort.wxss";
 @import "../../views/cart/cart.wxss";
 @import "../../views/mine/mine.wxss";
+@import "../../views/about/about.wxss";
 
 .toolbar { display: flex; height : 100rpx; border-top: solid 1px #eee; position: fixed; bottom : 0; width : 100%; background-color: #fff; }
 .toolbar .tab { flex-grow : 1; text-align: center; font-size : 24rpx; color : #888; position: relative; }

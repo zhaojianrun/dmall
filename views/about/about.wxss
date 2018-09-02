@@ -1,0 +1,102 @@
+/* pages/service/service.wxss */
+
+
+/*联系我们*/
+
+.contact-us, .about-us {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us>.banner {
+  width: 750rpx;
+}
+
+.contact-us > .title, .about-us > .title {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us > .title> image {
+  width: 38rpx;
+  height: 35rpx;
+}
+
+.contact-us > .title > text, .about-us > .title > text {
+  font-size: 32rpx;
+  color: #000;
+  margin-left: 9rpx;
+}
+
+/*联系人*/
+
+.contact-us > .contact {
+  width: 690rpx;
+  font-size: 30rpx;
+  margin-top: 70rpx;
+}
+
+.contact-us > .horizontal-bar {
+  height: 2rpx;
+  background-color: #ccc;
+  width: 690rpx;
+  margin-top: 34rpx;
+}
+
+/*电话1*/
+
+.telephone-one {
+  display: flex;
+  justify-content: space-between;
+  width: 690rpx;
+  font-size: 30rpx;
+  margin-top: 23rpx;
+}
+
+.telephone-one > image {
+  width: 44rpx;
+  height: 48rpx;
+}
+
+.telephone-two{
+  margin-bottom: 34rpx;
+}
+
+
+/*关于我们*/
+
+.about-us {
+  margin-top: 20rpx;
+  width: 100%;
+}
+
+.about-us > .title {
+  margin-top: 34rpx;
+}
+
+.about-us > .title > image {
+  width: 29rpx;
+  height: 36rpx;
+}
+
+.about-us > .title > text {
+  margin-left: 12rpx;
+}
+
+.company-name {
+  color: #ff7f66;
+  font-size: 30rpx;
+  margin-top: 63rpx;
+}
+
+/*公司介绍*/
+
+.company-introduction {
+  width: 600rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-top: 41rpx;
+  margin-bottom: 31rpx;
+}
