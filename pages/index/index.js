@@ -20,7 +20,7 @@ Page({
     cart: {
       num: 1
     },
-    currentView: '',
+    currentView: 'home',
     tabs: [{
         text: '首页',
         className: 'home',

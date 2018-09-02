@@ -2,7 +2,7 @@
 
 <template name="home">
 	<view class="view-home modules">
-		<block wx:for="{{modules}}">
+		<block wx:for="{{modules}}" wx:key='type'>
 			<template is="{{item.type}}" data="{{...item, index}}"></template>
 		</block>		
 	</view>	

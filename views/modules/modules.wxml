@@ -2,14 +2,14 @@
 <template name="slider">
   <view class="slider">
     <swiper autoplay data-moduleindex="{{index}}" bindchange="modulesSliderChange">
-      <swiper-item wx:for="{{data}}">
+      <swiper-item wx:for="{{data}}" wx:key='link'>
         <navigator url="{{item.link}}">
           <image src="{{item.img}}"></image>
         </navigator>
       </swiper-item>
     </swiper>
     <view class="pagination">
-      <block wx:for="{{data}}">
+      <block wx:for="{{data}}" wx:key='img'>
         <view wx:if="{{item.selected}}" class="current"></view>
         <view wx:else></view>
       </block>
@@ -53,7 +53,7 @@
 <!-- 商品列表 -->
 <template name="commodity-list">
   <view class="module-1 flex-col">
-    <view class="item-wrapper col" wx:for="{{data}}">
+    <view class="item-wrapper col" wx:for="{{data}}" wx:key='skuId'>
       <view class="item">
         <navigator url="{{item.link}}">
           <image class="image" src="{{item.img}}"></image>
